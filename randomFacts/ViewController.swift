@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     let colorProvider = bgColorProvider()
 
     var facts = ["There are 60,000 miles of blood vessels in the human body 😱 " ,
-                 "Prime minister of india is Narendra Modi 🇮🇳", "Greatest person in the world is Me 😊 " ,
+                 "Prime minister of india is Narendra Modi 🇮🇳", "Greatest person in the world is Me 😊 ",
                  "The average four year-old child asks over four hundred questions a day. 🤔 " ,
                  "Humans shed 40 pounds of skin in their lifetime, completely replacing their outer skin every month." ,
                  "The average adult human has two to nine pounds of bacteria in his or her body." ,
