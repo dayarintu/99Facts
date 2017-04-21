@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="randomFacts" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you know this fact ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kl7-sX-jSE">
+                                <rect key="frame" x="50" y="67" width="274" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="274" id="6oo-Vd-NH9"/>
+                                    <constraint firstAttribute="height" constant="35" id="c4D-tT-mlp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.95719604570000005" blue="0.43133706360000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are the wonderful person in the world " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kds-Oj-7VJ">
+                                <rect key="frame" x="16" y="253" width="343" height="131"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="JV9-LZ-mwe"/>
+                                    <constraint firstAttribute="width" constant="343" id="bKC-Ji-KkR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="playback" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLE-vq-PiI">
+                                <rect key="frame" x="82" y="535" width="211" height="60"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="CBc-2I-zG2"/>
+                                    <constraint firstAttribute="width" constant="211" id="Lfq-cu-5Wd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <state key="normal" title="NextFact"/>
+                                <connections>
+                                    <action selector="factButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hxk-YQ-FSY"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1194994445711658913ark_help.svg.hi" translatesAutoresizingMaskIntoConstraints="NO" id="zAm-Rc-4Nb">
+                                <rect key="frame" x="94" y="128" width="186" height="117"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="186" id="Kg8-vJ-Alh"/>
+                                    <constraint firstAttribute="height" constant="117" id="eMI-IZ-NLd"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kds-Oj-7VJ" secondAttribute="bottom" constant="283" id="5rI-Nw-VZI"/>
+                            <constraint firstItem="TLE-vq-PiI" firstAttribute="top" secondItem="kds-Oj-7VJ" secondAttribute="bottom" constant="151" id="9j4-SY-wLu"/>
+                            <constraint firstItem="kds-Oj-7VJ" firstAttribute="top" secondItem="zAm-Rc-4Nb" secondAttribute="bottom" constant="8" id="DWe-KF-V9e"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TLE-vq-PiI" secondAttribute="bottom" constant="72" id="Fnh-cf-ThW"/>
+                            <constraint firstItem="kds-Oj-7VJ" firstAttribute="top" secondItem="kl7-sX-jSE" secondAttribute="bottom" constant="151" id="Fpg-X6-6eC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kl7-sX-jSE" secondAttribute="bottom" constant="565" id="GQe-PJ-Xh0"/>
+                            <constraint firstItem="kds-Oj-7VJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="HkV-wy-wae"/>
+                            <constraint firstItem="kds-Oj-7VJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="NG0-uz-IpD"/>
+                            <constraint firstItem="TLE-vq-PiI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NmJ-K2-XVn"/>
+                            <constraint firstItem="kl7-sX-jSE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="34" id="QgD-CK-ICn"/>
+                            <constraint firstItem="kl7-sX-jSE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="47" id="f9X-Ta-B0f"/>
+                            <constraint firstItem="zAm-Rc-4Nb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jYQ-pa-rdd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kl7-sX-jSE" secondAttribute="trailing" constant="35" id="jbh-vy-Zms"/>
+                            <constraint firstItem="zAm-Rc-4Nb" firstAttribute="top" secondItem="kl7-sX-jSE" secondAttribute="bottom" constant="26" id="ryx-Rn-EMM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonOutlet" destination="TLE-vq-PiI" id="Vh6-EW-NrN"/>
+                        <outlet property="funFactButn" destination="TLE-vq-PiI" id="icv-4r-wsD"/>
+                        <outlet property="textLabel" destination="kds-Oj-7VJ" id="vBL-TS-CcZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1194994445711658913ark_help.svg.hi" width="600" height="600"/>
+    </resources>
+</document>
