@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F5487B7F1EA92C9B0036B441"
-               BuildableName = "funFacts.app"
-               BlueprintName = "funFacts"
-               ReferencedContainer = "container:funFacts.xcodeproj">
+               BuildableName = "99Facts.app"
+               BlueprintName = "99Facts"
+               ReferencedContainer = "container:99Facts.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F5487B7F1EA92C9B0036B441"
-            BuildableName = "funFacts.app"
-            BlueprintName = "funFacts"
-            ReferencedContainer = "container:funFacts.xcodeproj">
+            BuildableName = "99Facts.app"
+            BlueprintName = "99Facts"
+            ReferencedContainer = "container:99Facts.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F5487B7F1EA92C9B0036B441"
-            BuildableName = "funFacts.app"
-            BlueprintName = "funFacts"
-            ReferencedContainer = "container:funFacts.xcodeproj">
+            BuildableName = "99Facts.app"
+            BlueprintName = "99Facts"
+            ReferencedContainer = "container:99Facts.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F5487B7F1EA92C9B0036B441"
-            BuildableName = "funFacts.app"
-            BlueprintName = "funFacts"
-            ReferencedContainer = "container:funFacts.xcodeproj">
+            BuildableName = "99Facts.app"
+            BlueprintName = "99Facts"
+            ReferencedContainer = "container:99Facts.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

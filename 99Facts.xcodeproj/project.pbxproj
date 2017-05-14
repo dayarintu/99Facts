@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		F535D4941EC80A1400F8D9F1 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 		F535D4961EC80A4F00F8D9F1 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = click.mp3; path = ../../../Downloads/click.mp3; sourceTree = "<group>"; };
-		F5487B801EA92C9B0036B441 /* funFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5487B801EA92C9B0036B441 /* 99Facts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 99Facts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5487B831EA92C9B0036B441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5487B851EA92C9B0036B441 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F5487B881EA92C9B0036B441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		F5487B811EA92C9B0036B441 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5487B801EA92C9B0036B441 /* funFacts.app */,
+				F5487B801EA92C9B0036B441 /* 99Facts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,9 +86,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F5487B7F1EA92C9B0036B441 /* funFacts */ = {
+		F5487B7F1EA92C9B0036B441 /* 99Facts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5487B921EA92C9C0036B441 /* Build configuration list for PBXNativeTarget "funFacts" */;
+			buildConfigurationList = F5487B921EA92C9C0036B441 /* Build configuration list for PBXNativeTarget "99Facts" */;
 			buildPhases = (
 				F5487B7C1EA92C9B0036B441 /* Sources */,
 				F5487B7D1EA92C9B0036B441 /* Frameworks */,
@@ -98,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = funFacts;
+			name = 99Facts;
 			productName = randomFacts;
-			productReference = F5487B801EA92C9B0036B441 /* funFacts.app */;
+			productReference = F5487B801EA92C9B0036B441 /* 99Facts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F5487B7B1EA92C9B0036B441 /* Build configuration list for PBXProject "funFacts" */;
+			buildConfigurationList = F5487B7B1EA92C9B0036B441 /* Build configuration list for PBXProject "99Facts" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5487B7F1EA92C9B0036B441 /* funFacts */,
+				F5487B7F1EA92C9B0036B441 /* 99Facts */,
 			);
 		};
 /* End PBXProject section */
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F5487B7B1EA92C9B0036B441 /* Build configuration list for PBXProject "funFacts" */ = {
+		F5487B7B1EA92C9B0036B441 /* Build configuration list for PBXProject "99Facts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5487B901EA92C9C0036B441 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5487B921EA92C9C0036B441 /* Build configuration list for PBXNativeTarget "funFacts" */ = {
+		F5487B921EA92C9C0036B441 /* Build configuration list for PBXNativeTarget "99Facts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5487B931EA92C9C0036B441 /* Debug */,
