@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F535D4951EC80A1400F8D9F1 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F535D4941EC80A1400F8D9F1 /* Sound.swift */; };
+		F535D4971EC80A4F00F8D9F1 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F535D4961EC80A4F00F8D9F1 /* click.mp3 */; };
 		F5487B841EA92C9B0036B441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5487B831EA92C9B0036B441 /* AppDelegate.swift */; };
 		F5487B861EA92C9B0036B441 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5487B851EA92C9B0036B441 /* ViewController.swift */; };
 		F5487B891EA92C9B0036B441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5487B871EA92C9B0036B441 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F535D4941EC80A1400F8D9F1 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		F535D4961EC80A4F00F8D9F1 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = click.mp3; path = ../../../Downloads/click.mp3; sourceTree = "<group>"; };
 		F5487B801EA92C9B0036B441 /* funFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5487B831EA92C9B0036B441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5487B851EA92C9B0036B441 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				F5487B831EA92C9B0036B441 /* AppDelegate.swift */,
 				F5487B851EA92C9B0036B441 /* ViewController.swift */,
 				F5D341B01EA9A95300993279 /* bgColorProvider.swift */,
+				F535D4941EC80A1400F8D9F1 /* Sound.swift */,
+				F535D4961EC80A4F00F8D9F1 /* click.mp3 */,
 				F5487B871EA92C9B0036B441 /* Main.storyboard */,
 				F5487B8A1EA92C9B0036B441 /* Assets.xcassets */,
 				F5487B8C1EA92C9C0036B441 /* LaunchScreen.storyboard */,
@@ -146,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5487B8E1EA92C9C0036B441 /* LaunchScreen.storyboard in Resources */,
+				F535D4971EC80A4F00F8D9F1 /* click.mp3 in Resources */,
 				F5487B8B1EA92C9B0036B441 /* Assets.xcassets in Resources */,
 				F5487B891EA92C9B0036B441 /* Main.storyboard in Resources */,
 			);
@@ -161,6 +168,7 @@
 				F5487B861EA92C9B0036B441 /* ViewController.swift in Sources */,
 				F5487B841EA92C9B0036B441 /* AppDelegate.swift in Sources */,
 				F5D341B11EA9A95300993279 /* bgColorProvider.swift in Sources */,
+				F535D4951EC80A1400F8D9F1 /* Sound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

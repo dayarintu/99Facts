@@ -47,6 +47,8 @@ class ViewController: UIViewController {
 
 
     @IBAction func factButton(_ sender: Any) {
+        playSound()
+        
         textLabel.text =  randomFacts(facts: facts)
     
         let randomColor = colorProvider.randomColor()
