@@ -10,7 +10,8 @@ import UIKit
 import GameKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var textLabel: UILabel!
+    
+    @IBOutlet weak var textView: UITextView!
     
     @IBOutlet weak var buttonOutlet: UIButton!
     
@@ -110,7 +111,7 @@ class ViewController: UIViewController {
                  "A dog’s sense of smell is more than 1 million times stronger than that of a person 🤔",
                  "The average body temperature for a dog is 101.2”",
                  "People have been keeping dogs for pets for 12,000 years. 🤔",
-                 "If you drilled a tunnel straight through the Earth and jumped in, it would take you about 42 minutes to get to the other side 🤔",
+                 "The youngest girl to ever be divorced was 10 years old 🤔",
                  "There are more living organisms in a teaspoonful of soil than there are people on earth 🤔",
                  "Our galaxy probably contains at least 2 billion planets like Earth. 🤔",
                  "The earth's deepest known point equals to 24.5 Empire State Buildings end to end. 🤔",
@@ -123,7 +124,7 @@ class ViewController: UIViewController {
                  "Farting helps reduce high blood pressure and is good for your health. 🤔",
                  "1 Can of Soda a day increases your chances of getting type 2 diabetes by 22%. 🤔",
                  "Exercise, like walking, can reduce Cancer'>breast cancer risk by 25%. 🤔",
-                 "The U.S. spends more money per person on healthcare than any other developed country, yet its life expectancy is below average 🤔",
+                 "The U.S. spends more money per person on healthcare than any other developed country 🤔",
                  "People who read books live an average of almost 2 years longer than those who do not read at all, a Yale research found. 🤔",
                  "Drinking clean water and breathing fresh air treats more than 50% of diseases 🤔",
                  "You Make Most of Your Decisions Unconsciously 🤔",
@@ -157,7 +158,7 @@ class ViewController: UIViewController {
     @IBAction func factButton(_ sender: Any) {
         playSound()
         
-        textLabel.text =  randomFacts(facts: facts)
+        textView.text =  randomFacts(facts: facts)
     
         let randomColor = colorProvider.randomColor()
         view.backgroundColor = randomColor
